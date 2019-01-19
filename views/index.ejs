@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>先鋒科技</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to 先鋒科技 </p> <h1>LIST</h1>
+	
+   
+  
+</html>
+	<input type='submit' value='add' onclick="javascript: location.href='qrcode'">
+	
+    <table>
+        <tr>
+            <th>id</th>
+           
+        </tr>
+        <% for ( var i = 0 ; i < data.length ; i++){ %>
+            <tr>
+                <td>
+                    <%= data[i].id  %>
+                </td>
+               
+            </tr>
+            <% } %>
+    </table>
+  </body>
+</html>
