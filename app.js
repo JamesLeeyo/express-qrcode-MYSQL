@@ -11,11 +11,11 @@ var https = require('https');
 var mysql = require("mysql");
 //test
 var con = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "test",
-	port:'3305',
-    database: "test"
+   host: "localhost",
+   user: "root",
+   password: "yourpassword",
+   port:'yourport',
+   database: "yourdatabase"
 });
 
 con.connect(function(err) {
