@@ -15,14 +15,7 @@ This is a platform that combine MySQL + express + qrcode
     
 ### step 2:   
 ----------------------
-    build environment (for ejs)
- 
- ```
-  express -e
- ```
- ```
-  npm install
- ```
+   
   install my SQL package for node.js
  ```
   npm install mysql
